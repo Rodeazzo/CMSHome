@@ -11,3 +11,130 @@ Updated: 2021-04-30 16:08:00
 
 */
 
+#primary {
+	width: 100%;
+}
+
+#secondary {
+	display: none;
+}
+
+.site-branding {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.entry-title {
+	display: none;
+}
+
+.wpcp-slide-image {
+	background: black;
+	border-radius: 10px;
+}
+
+.products {
+	text-align: center;
+}
+
+.woocommerce ul.products li.product-category {
+	width: 10%;
+}
+
+.post-46 {
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+}
+
+.wp-block-group__inner-container p {
+	display: none;
+}
+
+.wp-block-group {
+		width: 100%;
+}
+
+.wp-block-group__inner-container div {
+	float: left;
+	width: 10%;
+	text-align: center;
+	position: relative;
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.wp-block-group__inner-container div {
+			float: left;
+			width: 20%;
+			text-align: center;
+		}
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.wp-block-group__inner-container div {
+			float: left;
+			width: 25%;
+			text-align: center;
+		}
+}
+
+.wp-block-group__inner-container img {
+	width: 50%;
+}
+
+.wp-block-group__inner-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#tablepress-2_filter {
+	margin-bottom: 5px;
+}
+
+.column-2 .filter_column .search_init {
+	display: none;
+}
+
+.column-5 .filter_column .search_init {
+	display: none;
+}
+
+.text-holder {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.p_date {
+	text-align: center;
+}
+
+#a_link {
+	margin-bottom: 3px;
+	color: white;
+}
+
+.ul_posts {
+	list-style-type: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+}
+
+.doti-follow:link, .doti-follow:visited, #a_link:link, #alink:visited {
+	width: 100%;
+  background-color: #222E38;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.doti-follow:hover, .doti-follow:active,
+#a_link:hover, #a_link:active
+{
+  background-color: #00A0B0;
+}
